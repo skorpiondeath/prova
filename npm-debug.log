@@ -5,113 +5,30 @@
 2 info using npm@4.1.2
 3 info using node@v4.3.1
 4 verbose publish [ '.' ]
-5 silly cache add args [ '.', null ]
-6 verbose cache add spec .
-7 silly cache add parsed spec Result {
-7 silly cache add   raw: '.',
-7 silly cache add   scope: null,
-7 silly cache add   escapedName: null,
-7 silly cache add   name: null,
-7 silly cache add   rawSpec: '.',
-7 silly cache add   spec: 'F:\\ProvaNPM',
-7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache\@ciscoop\prova\0.0.1\package.tgz not in flight; packing
-9 verbose correctMkdir C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-10 info lifecycle @ciscoop/prova@0.0.1~prepublish: @ciscoop/prova@0.0.1
-11 silly lifecycle @ciscoop/prova@0.0.1~prepublish: no script for prepublish, continuing
-12 info lifecycle @ciscoop/prova@0.0.1~prepare: @ciscoop/prova@0.0.1
-13 silly lifecycle @ciscoop/prova@0.0.1~prepare: no script for prepare, continuing
-14 verbose tar pack [ 'C:\\Users\\fabrizio.CISCOOP\\AppData\\Roaming\\npm-cache\\@ciscoop\\prova\\0.0.1\\package.tgz',
-14 verbose tar pack   'F:\\ProvaNPM' ]
-15 verbose tarball C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache\@ciscoop\prova\0.0.1\package.tgz
-16 verbose folder F:\ProvaNPM
-17 verbose addLocalTarball adding from inside cache C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache\@ciscoop\prova\0.0.1\package.tgz
-18 verbose correctMkdir C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-19 silly cache afterAdd @ciscoop/prova@0.0.1
-20 verbose afterAdd C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache\@ciscoop\prova\0.0.1\package\package.json not in flight; writing
-21 verbose correctMkdir C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-22 verbose afterAdd C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache\@ciscoop\prova\0.0.1\package\package.json written
-23 silly publish { name: '@ciscoop/prova',
-23 silly publish   version: '0.0.1',
-23 silly publish   description: 'prova npm',
-23 silly publish   main: 'main.js',
-23 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
-23 silly publish   repository:
-23 silly publish    { type: 'git',
-23 silly publish      url: 'git+https://github.com/skorpiondeath/prova.git' },
-23 silly publish   keywords: [ 'javascript' ],
-23 silly publish   author:
-23 silly publish    { name: 'Fabrizio Amici',
-23 silly publish      email: '“fabri.cis@pa.sm”',
-23 silly publish      url: '“none' },
-23 silly publish   license: 'ISC',
-23 silly publish   bugs: { url: 'https://github.com/skorpiondeath/prova/issues' },
-23 silly publish   homepage: 'https://github.com/skorpiondeath/prova#readme',
-23 silly publish   readme: 'Saluti\r\n=========\r\n\r\nProva saluti\r\n\r\n## Installation\r\n\r\n  `npm install @skorpiondeath/prova`\r\n\r\n## Usage\r\n\r\n    var greetings = require(\'@skorpiondeath/prova\');\r\n\r\n    greetings.sayHelloInItalian();\r\n  \r\n  \r\n  Output should be `CIAO`\r\n\r\n\r\n## Tests\r\n\r\n  `npm test`\r\n\r\n## Contributing\r\n\r\n',
-23 silly publish   readmeFilename: 'README.md',
-23 silly publish   gitHead: '46871f37e0e78b7acad17428f625586f5f7cf01c',
-23 silly publish   _id: '@ciscoop/prova@0.0.1',
-23 silly publish   _shasum: 'fb7a53fc017b13e093e403aa433d551d02060175',
-23 silly publish   _from: '.' }
-24 info lifecycle @ciscoop/prova@0.0.1~prepublishOnly: @ciscoop/prova@0.0.1
-25 silly lifecycle @ciscoop/prova@0.0.1~prepublishOnly: no script for prepublishOnly, continuing
-26 verbose getPublishConfig undefined
-27 silly mapToRegistry name @ciscoop/prova
-28 silly mapToRegistry scope (from package name) @ciscoop
-29 verbose mapToRegistry no registry URL found in name for scope @ciscoop
-30 silly mapToRegistry using default registry
-31 silly mapToRegistry registry https://registry.npmjs.org/
-32 silly mapToRegistry data Result {
-32 silly mapToRegistry   raw: '@ciscoop/prova',
-32 silly mapToRegistry   scope: '@ciscoop',
-32 silly mapToRegistry   escapedName: '@ciscoop%2fprova',
-32 silly mapToRegistry   name: '@ciscoop/prova',
-32 silly mapToRegistry   rawSpec: '',
-32 silly mapToRegistry   spec: 'latest',
-32 silly mapToRegistry   type: 'tag' }
-33 silly mapToRegistry uri https://registry.npmjs.org/@ciscoop%2fprova
-34 verbose publish registryBase https://registry.npmjs.org/
-35 silly publish uploading C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache\@ciscoop\prova\0.0.1\package.tgz
-36 verbose request uri https://registry.npmjs.org/@ciscoop%2fprova
-37 verbose request sending authorization for write operation
-38 info attempt registry request try #1 at 16:43:12
-39 verbose request using bearer token for auth
-40 verbose request id ad7e66fe1cfd6711
-41 http request PUT https://registry.npmjs.org/@ciscoop%2fprova
-42 http 402 https://registry.npmjs.org/@ciscoop%2fprova
-43 verbose headers { 'content-type': 'application/json',
-43 verbose headers   'cache-control': 'max-age=0',
-43 verbose headers   'content-length': '119',
-43 verbose headers   'accept-ranges': 'bytes',
-43 verbose headers   date: 'Mon, 30 Jan 2017 15:43:13 GMT',
-43 verbose headers   via: '1.1 varnish',
-43 verbose headers   connection: 'keep-alive',
-43 verbose headers   'x-served-by': 'cache-hhn1527-HHN',
-43 verbose headers   'x-cache': 'MISS',
-43 verbose headers   'x-cache-hits': '0',
-43 verbose headers   'x-timer': 'S1485790992.632942,VS0,VE965' }
-44 verbose request invalidating C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm-cache\registry.npmjs.org\_40ciscoop_252fprova on PUT
-45 error publish Failed PUT 402
-46 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @ciscoop/prova
-46 verbose stack     at makeError (C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:304:12)
-46 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:292:14)
-46 verbose stack     at Request._callback (C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:212:14)
-46 verbose stack     at Request.self.callback (C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:186:22)
-46 verbose stack     at emitTwo (events.js:87:13)
-46 verbose stack     at Request.emit (events.js:172:7)
-46 verbose stack     at Request.<anonymous> (C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1081:10)
-46 verbose stack     at emitOne (events.js:77:13)
-46 verbose stack     at Request.emit (events.js:169:7)
-46 verbose stack     at IncomingMessage.<anonymous> (C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1001:12)
-47 verbose statusCode 402
-48 verbose pkgid @ciscoop/prova
-49 verbose cwd F:\ProvaNPM
-50 error Windows_NT 6.1.7601
-51 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\fabrizio.CISCOOP\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish"
-52 error node v4.3.1
-53 error npm  v4.1.2
-54 error code E402
-55 error You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @ciscoop/prova
-56 error If you need help, you may report this error at:
-56 error     <https://github.com/npm/npm/issues>
-57 verbose exit [ 1, true ]
+5 verbose stack Error: Failed to parse json
+5 verbose stack Unexpected token '}' at 27:1
+5 verbose stack }
+5 verbose stack ^
+5 verbose stack     at parseError (C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+5 verbose stack     at parseJson (C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+5 verbose stack     at C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+5 verbose stack     at C:\Users\fabrizio.CISCOOP\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+5 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+6 verbose cwd F:\ProvaNPM
+7 error Windows_NT 6.1.7601
+8 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\fabrizio.CISCOOP\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+9 error node v4.3.1
+10 error npm  v4.1.2
+11 error file F:\ProvaNPM\package.json
+12 error code EJSONPARSE
+13 error Failed to parse json
+13 error Unexpected token '}' at 27:1
+13 error }
+13 error ^
+14 error File: F:\ProvaNPM\package.json
+15 error Failed to parse package.json data.
+15 error package.json must be actual JSON, not just JavaScript.
+15 error
+15 error This is not a bug in npm.
+15 error Tell the package author to fix their package.json file. JSON.parse
+16 verbose exit [ 1, true ]
