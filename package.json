@@ -1,0 +1,22 @@
+{
+  "name": "prova",
+  "version": "0.0.1",
+  "description": "prova npm",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorpiondeath/prova.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Fabrizio Amici <“fabri.cis@pa.sm”> (“none)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skorpiondeath/prova/issues"
+  },
+  "homepage": "https://github.com/skorpiondeath/prova#readme"
+}
